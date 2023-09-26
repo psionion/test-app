@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div>well hello</div>
-      {data && <div>{data}</div>}
+      {data && <div>{data.data}</div>}
     </>
   );
 }
